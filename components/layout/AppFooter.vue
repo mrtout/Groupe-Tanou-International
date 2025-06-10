@@ -1,15 +1,16 @@
 <script setup lang="ts">
 import Logo from "@/assets/svg/logo.svg";
 import Facebook from "@/assets/svg/facebook.svg";
-import Twitter from "@/assets/svg/twitter.svg";
+import Tiktok from "@/assets/svg/tiktok.svg";
 import LinkedIn from "@/assets/svg/linkedin.svg";
-import Instagram from "@/assets/svg/instagram.svg";
+import Snapchat from "@/assets/svg/snapchat.svg";
+import Youtube from "@/assets/svg/youtube.svg";
 </script>
 
 <template>
    <footer class="App-Footer">
-      <div class="Logo-Container">
-         <img :src="Logo" alt="Cadence Logo" />
+      <div class="Logo-Groupe Tanou International™">
+         <img :src="Logo" alt="Groupe Tanou International™" />
          <p>
             Groupe Tanou International™ is an innovative Burkinabè company specialized
             in international trade, export and product sourcing, logistics, and business travel.
@@ -20,9 +21,10 @@ import Instagram from "@/assets/svg/instagram.svg";
       </div>
       <div class="Icon-Row Outer-Icon-Row">
          <img :src="Facebook" alt="facebook icon" />
-         <img :src="Instagram" alt="instagram icon" />
+         <img :src="Tiktok" alt="tiktok icon" />
          <img :src="LinkedIn" alt="linkedin icon" />
-         <img :src="Twitter" alt="twitter icon" />
+         <img :src="Snapchat" alt="snapchat icon" />
+         <img :src="Youtube" alt="youtube icon" />
       </div>
       <nav class="Links-Container">
          <li class="Links">
@@ -55,13 +57,14 @@ import Instagram from "@/assets/svg/instagram.svg";
             <h3>CONTACT</h3>
             <div class="Icon-Row">
                <img :src="Facebook" alt="facebook icon" />
-               <img :src="Instagram" alt="instagram icon" />
+               <img :src="Tiktok" alt="tiktok icon" />
                <img :src="LinkedIn" alt="linkedin icon" />
-               <img :src="Twitter" alt="twitter icon" />
+               <img :src="Snapchat" alt="snapchat icon" />
+               <img :src="Youtube" alt="youtube icon" />
             </div>
          </li>
       </nav>
-      <p class="Copyright">Cadence Logistics 2022.</p>
+      <p class="Copyright">Copyright © 2025 - GROUPE TANOU INTERNATIONAL™. All rights reserved.</p>
    </footer>
 </template>
 
