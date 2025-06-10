@@ -11,9 +11,11 @@ import Instagram from "@/assets/svg/instagram.svg";
       <div class="Logo-Container">
          <img :src="Logo" alt="Cadence Logo" />
          <p>
-            © Cadence®, the Cadence logo, and the names and marks associated
-            with Cadence's products are trademarks of Cadence Logistics and/or
-            its affiliates.
+            Groupe Tanou International™ is an innovative Burkinabè company specialized
+            in international trade, export and product sourcing, logistics, and business travel.
+            Founded by experts in sino-african relations and commercial operations, 
+            the group is committed to facilitating exchanges and commercial operations,
+            between Africa, Asia and the world relations.
          </p>
       </div>
       <div class="Icon-Row Outer-Icon-Row">
