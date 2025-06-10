@@ -19,12 +19,22 @@ import Youtube from "@/assets/svg/youtube.svg";
             between Africa, Asia and the world relations.
          </p>
       </div>
-      <div class="Icon-Row Outer-Icon-Row">
-         <img :src="Facebook" alt="facebook icon" />
-         <img :src="Tiktok" alt="tiktok icon" />
-         <img :src="LinkedIn" alt="linkedin icon" />
-         <img :src="Snapchat" alt="snapchat icon" />
-         <img :src="Youtube" alt="youtube icon" />
+      <div class="Icon-Row Outer-Icon-Row-externe">
+         <a href="https://www.facebook.com/share/15mrzcJWYF/?mibextid=wwXIfr" target="_blank"> 
+            <img :src="Facebook" alt="facebook" />
+         </a>  
+         <a href="https://www.tiktok.com/@groupe.tanou.inte?_t=ZM-8wCYY70bP1T&_r=1" target="_blank">     
+            <img :src="Tiktok" alt="tiktok" />
+         </a>         
+         <a href="https://www.linkedin.com/company/groupe-tanou-international%E2%84%A2/" target="_blank">         
+                  <img :src="LinkedIn" alt="linkedin" />
+         </a>      
+         <a href="https://www.snapchat.com/add/groupetanou?share_id=NNHvNhInQGA&locale=fr-FR" target="_blank">  
+               <img :src="Snapchat" alt="snapchat" />
+         </a>            
+         <a href="https://youtube.com/@groupetanou?si=8uxi7qpQrOusLaPu" target="_blank">     
+                  <img :src="Youtube" alt="youtube" />
+         </a>    
       </div>
       <nav class="Links-Container">
          <li class="Links">
